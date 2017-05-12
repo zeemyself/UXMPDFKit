@@ -1,6 +1,6 @@
 ![UXM Token Field](https://uxmstudio.com/public/images/uxmpdfkit.png)
 
-[![CI Status](http://img.shields.io/travis/uxmstudio/UXMPDFKit.svg?style=flat)](https://travis-ci.org/uxmstudio/UXMPDFKit)
+[![Build Status](https://travis-ci.org/zeemyself/UXMPDFKit.svg?branch=master)](https://travis-ci.org/zeemyself/UXMPDFKit)
 [![Version](https://img.shields.io/cocoapods/v/UXMPDFKit.svg?style=flat)](http://cocoapods.org/pods/UXMPDFKit)
 ![Swift](https://img.shields.io/badge/%20in-swift%203.0-orange.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -67,7 +67,7 @@ PDFViewController *pdfVC = [[PDFViewController alloc] initWithDocument:document]
 ```
 
 ### Single Page Collection View
-This collection view renders a PDF in its entirety one page at a time in photo-slideshow style. 
+This collection view renders a PDF in its entirety one page at a time in photo-slideshow style.
 ```swift
 let collectionView = PDFSinglePageViewer(frame: self.view.bounds, document: self.document)
 collectionView.singlePageDelegate = self
@@ -101,14 +101,14 @@ formController.showForm(contentView)
 PDF rewriting is not currently supported, but flattening inputed data onto the PDF is. To render the form information onto the document, call:
 ```swift
 func renderFormOntoPDF() -> NSURL // Returns a temporary url
-func save(url: NSURL) -> Bool // Writes 
+func save(url: NSURL) -> Bool // Writes
 ```
 
 
 ### Annotations
-User annotations are supported at a basic level, however instead of being written onto the PDF, are burned on at the time of saving. 
+User annotations are supported at a basic level, however instead of being written onto the PDF, are burned on at the time of saving.
 
-Current annotation types available: 
+Current annotation types available:
 * Pen
 * Highlighter
 * Textbox
@@ -127,7 +127,7 @@ protocol PDFAnnotation {
 }
 ```
 
-An annotation should be an object that contains its position and value, not a view. Because annotations are written onto temporary objects, they should be created, not passed by reference each time ```mutableView()``` is called. 
+An annotation should be an object that contains its position and value, not a view. Because annotations are written onto temporary objects, they should be created, not passed by reference each time ```mutableView()``` is called.
 
 ### Actions
 
@@ -144,7 +144,7 @@ Currently supported actions:
 
 Tapped actions are passed to your view controller by the PDFSinglePageViewer in its ```contentDelegate```
 
-### Renderer 
+### Renderer
 In order to perform write operations back onto a PDF in an efficient format, a renderer is used. Each type of form, annotation, etc that needs to be rendered back onto the PDF should extend the following protocol:
 
 ```swift
@@ -172,4 +172,3 @@ Chris Anderson:
 # License
 
 UXMPDFKit is available under the MIT license. See the LICENSE file for more info.
-

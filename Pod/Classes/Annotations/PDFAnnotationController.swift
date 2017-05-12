@@ -81,6 +81,13 @@ open class PDFAnnotationController: UIViewController {
         action: #selector(PDFAnnotationController.selectedUndo(_:))
     )
     
+    lazy var bookmarkButton: PDFBarButton = PDFBarButton(
+        image: UIImage.bundledImage("bookmark"),
+        toggled: false,
+        target: self,
+        action: #selector(PDFAnnotationController.selectedBookmark(_:))
+    )
+    
     //MARK: - Init
     public init(document: PDFDocument, delegate: PDFAnnotationControllerProtocol) {
         self.document = document
@@ -173,6 +180,11 @@ open class PDFAnnotationController: UIViewController {
         
         finishAnnotation()
         undo()
+    }
+    
+    @IBAction func selectedBookmark(_ button: PDFBarButton) {
+        
+        print("BOOKMARK")
     }
     
     func hide() {
