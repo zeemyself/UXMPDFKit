@@ -197,12 +197,23 @@ open class PDFViewController: UIViewController {
         )
         
         
+        buttons.append(PDFBarButton(
+            image: UIImage.bundledImage("bookmark"),
+            toggled: false,
+            target: self,
+            action: #selector(PDFViewController.selectedBookmark)
+            )
+        )
+//        buttons.append(annotationController.bookmarkButton)
+        
+        
         if allowsAnnotations {
             if showingAnnotations {
                 buttons.append(annotationController.highlighterButton)
                 buttons.append(annotationController.penButton)
                 buttons.append(annotationController.textButton)
                 buttons.append(annotationController.undoButton)
+//                buttons.append(annotationController.bookmarkButton)
             }
             
             buttons.append(PDFBarButton(
@@ -247,6 +258,10 @@ open class PDFViewController: UIViewController {
         let nvc = UINavigationController(rootViewController: vc)
         nvc.modalTransitionStyle = .crossDissolve
         present(nvc, animated: true, completion: nil)
+    }
+    
+    func selectedBookmark() {
+        print("Bookmark")
     }
     
     func hideBars(state: Bool) {
