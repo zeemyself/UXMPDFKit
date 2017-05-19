@@ -18,6 +18,8 @@ class ExampleViewController: UIViewController {
         
         let pdf = PDFViewController(document: document!)
         
+        pdf.allowsFormFilling = false
+        
         self.navigationController?.pushViewController(pdf, animated: true)
     }
 }

@@ -17,7 +17,7 @@ open class PDFDocument: NSObject, NSCoding {
     open var lastOpen: Date?
     open var pageCount: Int = 0
     open var currentPage: Int = 1
-    open var bookmarks: NSMutableIndexSet = NSMutableIndexSet()
+    open var bookmarks: IndexSet = IndexSet()
     open var fileUrl: URL?
     open var fileData: NSData?
     open var fileSize: Int = 0
@@ -62,7 +62,7 @@ open class PDFDocument: NSObject, NSCoding {
     public required init?(coder aDecoder: NSCoder) {
         self.guid = aDecoder.decodeObject(forKey: "fileGUID") as! String
         self.currentPage = aDecoder.decodeInteger(forKey: "currentPage")
-        self.bookmarks = aDecoder.decodeObject(forKey: "bookmarks") as! NSMutableIndexSet
+        self.bookmarks = aDecoder.decodeObject(forKey: "bookmarks") as! IndexSet
         self.lastOpen = aDecoder.decodeObject(forKey: "lastOpen") as? Date
         if let annotations = aDecoder.decodeObject(forKey: "annotations") as? PDFAnnotationStore {
             self.annotations = annotations

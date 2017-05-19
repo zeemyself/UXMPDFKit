@@ -42,6 +42,9 @@ open class PDFViewController: UIViewController {
     /// A reference to the share button
     var shareBarButtonItem: UIBarButtonItem?
     
+    /// A bookmark
+    var bookmarks: IndexSet = IndexSet()
+    
     /// A closure that defines an action to take upon selecting the share button.
     /// The default action brings up a UIActivityViewController
     open lazy var shareBarButtonAction: () -> () = { self.showActivitySheet() }
@@ -97,6 +100,9 @@ open class PDFViewController: UIViewController {
             collectionView.isPagingEnabled = false
             pageScrubber.isHidden = true
         }
+        
+        /// Setup bookmark
+        self.bookmarks = self.document.bookmarks
         
         self.setupUI()
         collectionView.reloadItems(at: [IndexPath(row: 0, section: 0)])
@@ -160,6 +166,7 @@ open class PDFViewController: UIViewController {
         if showsScrubber {
             pageScrubber.updateScrubber()
         }
+        reloadBarButtons()
     }
     
     fileprivate func reloadBarButtons() {
@@ -199,7 +206,7 @@ open class PDFViewController: UIViewController {
         
         buttons.append(PDFBarButton(
             image: UIImage.bundledImage("bookmark"),
-            toggled: false,
+            toggled: self.bookmarks.contains(self.document.currentPage),
             target: self,
             action: #selector(PDFViewController.selectedBookmark)
             )
@@ -261,7 +268,15 @@ open class PDFViewController: UIViewController {
     }
     
     func selectedBookmark() {
-        print("Bookmark")
+        if self.bookmarks.contains(self.document.currentPage) {
+            self.bookmarks.remove(self.document.currentPage)
+        }
+        else {
+            self.bookmarks.insert(self.document.currentPage)
+        }
+        self.document.bookmarks = bookmarks
+        
+        reloadBarButtons()
     }
     
     func hideBars(state: Bool) {
@@ -321,6 +336,7 @@ extension PDFViewController: PDFSinglePageViewerDelegate {
         if showsScrubber {
             pageScrubber.updateScrubber()
         }
+        reloadBarButtons()
     }
     
     public func singlePageViewer(_ collectionView: PDFSinglePageViewer, loadedContent content: PDFPageContentView) {
@@ -348,10 +364,12 @@ extension PDFViewController: PDFSinglePageViewerDelegate {
     }
     
     public func singlePageViewerDidBeginDragging() {
-        self.hideBars(state: true)
+//        self.hideBars(state: true)
     }
     
-    public func singlePageViewerDidEndDragging() { }
+    public func singlePageViewerDidEndDragging() {
+        self.reloadBarButtons()
+    }
 }
 
 extension PDFViewController: PDFThumbnailViewControllerDelegate {

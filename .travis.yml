@@ -11,3 +11,6 @@ before_install:
 # - pod install --project-directory=Example
 script:
   - pod lib lint
+notifications:
+  email:
+    on_success: never
