@@ -14,6 +14,8 @@
 
 ## Note
 
+This project is fork from https://github.com/uxmstudio/UXMPDFKit
+
 This project is still in early stages. Right now the PDF reader works both programmatically and through interface builder. This PDF reader supports interactive forms and provides methods for overlaying text, signature and checkbox elements onto the page, as well as rendering a PDF with the elements burned back onto the PDF. See the example project for how to implement.
 
 ## Installation
@@ -49,7 +51,7 @@ UXMPDFKit comes with a single page PDF reader with many features implemented rig
 #### Swift
 ```swift
 let path = Bundle.main.path(forResource: "sample", ofType: "pdf")!
-let document = try! PDFDocument(filePath: path, password: "password_if_needed")
+let document = try! PDFDocument.from(filePath: path, password: "password_if_needed")
 let pdf = PDFViewController(document: document)
 
 self.navigationController?.pushViewController(pdf, animated: true)
