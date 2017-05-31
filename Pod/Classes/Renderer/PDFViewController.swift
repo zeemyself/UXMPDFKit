@@ -22,13 +22,13 @@ open class PDFViewController: UIViewController {
     }
     
     /// A boolean value that determines if a PDF should have fillable form elements
-    open var allowsFormFilling: Bool = true
+    open var allowsFormFilling: Bool = false
     
     /// A boolean value that determines if annotations are allowed
     open var allowsAnnotations: Bool = true
     
     /// A boolean value that determines if sharing should be allowed
-    open var allowsSharing: Bool = true
+    open var allowsSharing: Bool = false
     
     /// A boolean value that determines if view controller is displayed as modal
     open var isPresentingInModal: Bool = false
