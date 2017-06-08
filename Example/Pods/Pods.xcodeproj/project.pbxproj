@@ -3,109 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FD6DC60023B62075797986A719A6F6 /* PDFPageTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303E82AEB4DE11FCFACEB8EDFD9E025A /* PDFPageTileLayer.swift */; };
-		056927A5ED624CFAD8976AA959D68B00 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8709590862CC36D2160075BCCD4E46 /* UIImage.swift */; };
-		07868367C4008CE55467CFD5099EBAB9 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6609F24D5989608D6E4AEABEB61D2C /* CGPDFDocument.swift */; };
-		078F8B86097986DB3F6512859FF8764F /* PDFActionGoTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCE8671408DA6A88C6104CF7CADE903 /* PDFActionGoTo.swift */; };
 		095493E843C922C5774EA49007991774 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0CDA488DB33797C39BC87D2A87A7B6C9 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070DD6BD30EB7B64387E7B6DE8196CF /* UIColor.swift */; };
-		0E6D1692B3CCA5C0A390F56207C03BB6 /* PDFThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308ED807743EF8A9E9023A01C44BF01A /* PDFThumbnailViewCell.swift */; };
-		104DB2360C5A28F5E6301BC270B06687 /* PDFTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BB1231BE3900304BABBEF3E37B6064 /* PDFTextParser.swift */; };
-		1DC755FDAB48733347C9246DFE022803 /* PDFDocumentLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAFF77E73AF2128411ADDF5B58E260 /* PDFDocumentLink.swift */; };
-		1EE826CA256A6C139C265FC849375A88 /* PDFDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11956BF522A03C6DDA6C5D4DFEC4972 /* PDFDictionary.swift */; };
-		20DF6D17535D6A94B7FCCAFAAD7E7ED9 /* PDFSinglePageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1184EBA9D2ACBCAD456DA61DB7342C15 /* PDFSinglePageViewer.swift */; };
-		288F5D3C4077469FEBCA8AE09B3E774E /* PDFFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E073683EE9E0CB4F23843F0B64847C /* PDFFormViewController.swift */; };
-		4ACF1F4544F1BA016AB1A99A7E0010D5 /* PDFBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A2DCF5C9D8738F2D258C3143E1466 /* PDFBarButton.swift */; };
-		4AD10C1F68AC84584EE99C82B0C0C439 /* PDFAnnotationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E783093DF8174B6017F64FA4A168B30 /* PDFAnnotationStore.swift */; };
+		10B870CDB533E4DEEBCD2461A07D9E8B /* PDFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD138F737EEDA39465B7BB53A8A73C /* PDFAction.swift */; };
+		25A24485442D0CFB5E6FEED8CE9E397A /* PDFFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C91F384EA9EA86F3848FE36FF08859 /* PDFFormField.swift */; };
+		375DB80EC7A8A49C283918E8E2040A0C /* PDFActionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABC1302973D3A9A531F0148A8110B0D /* PDFActionURL.swift */; };
+		3979AD1BC22A1EF62F031D5C24BE438A /* PDFObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889FCAB1AAD806725B6C8D286104AA2C /* PDFObjectParser.swift */; };
+		40E9CFFD2EDFB253AF5F825A749149DE /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215F9237E873297D1F75084AEB984894 /* PDFViewController.swift */; };
+		40FE42CBF69284859516215B5501E7B8 /* PDFDocumentLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA255CC77328E98ED5DD6ADC2E2BC54 /* PDFDocumentLink.swift */; };
+		42017DE7CCA10165FDD9D2C1D06CF56C /* PDFPageTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA59EF5958D507D164DC7EA0F5C11D /* PDFPageTileLayer.swift */; };
+		43DB299DE476073C293757B3C16DED18 /* UXMPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC32D4C69A270C7F52DFE49BEE6E162 /* UXMPDFKit-dummy.m */; };
+		4A26B4142E5B64AA3E18C5857D2A2392 /* PDFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4000CDBE591362C7E9305ED2B8101B43 /* PDFPageContentView.swift */; };
+		4AF0FF5F3757292C0D8A566291EF1525 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBB70170CDB925C8B9C836A3DE115C /* CGPDFDocument.swift */; };
 		53F2F8EEB27D4A93E6EB47A3C63F070B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5C93782D987840B92EAFCB0648CF81E4 /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3CEB535BDB0D3DE84DCB79C29E757 /* PDFRenderer.swift */; };
+		578D19C1C40C170B329DFC2A96778E7F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322BA8FCA92E76F9DE60E6738DE6BDC /* UIColor.swift */; };
+		5829911597730F3B4232407E68CA4B67 /* PDFPageScrubberTrackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED327080B8B6CD9C9CD967F2A3947DDF /* PDFPageScrubberTrackControl.swift */; };
 		5D40ADA128131547596222CA08AA704A /* UXMPDFKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36816B3ABA7674FDDFE94F22C8EC3FAB /* UXMPDFKit.bundle */; };
-		61BBFC3CAAB93E1058DE59488F03C36D /* PDFAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0851B0E83B08D4BA997A2AB23D8B8A98 /* PDFAnnotation.swift */; };
-		629F13797088EE86DF041767E1A381FA /* PDFPageScrubberThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6568B88F0820FBC7688E5CB155515169 /* PDFPageScrubberThumb.swift */; };
+		5DD094958CB8A0922FD537653446F993 /* PDFSnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F992F94DF78F782B5AF125A243744A8 /* PDFSnapshotCache.swift */; };
 		643D6AFD0473E8FDFA7281A93C85987B /* Pods-UXMPDFKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B9DE7CB16631F30FAE38D53282A2FE /* Pods-UXMPDFKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69D55F91A2FF28E3C77DA5EA23758512 /* PDFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8395BEB17C8A082284F9BF7C4D0ACF3 /* PDFAction.swift */; };
-		6FC00CBA736C8A064013F89D3BC6016D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC5ECA5FD2C16950DC561BC1B29AF68 /* UIViewController.swift */; };
-		7689EB072763E2AEDA297D25D0B009EE /* PDFThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE6ABE2BA665AD28E24FF047E48A01E /* PDFThumbnailViewController.swift */; };
-		77FDBF0FB17700AE235C73729D2F55A8 /* PDFSinglePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350FDAD65498E99220B6538F4AFCBE07 /* PDFSinglePageCell.swift */; };
-		7B5C32895B67912241698ED345FC11A6 /* PDFFormPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F494D012DDBFE9C85995D7E29E09DAF /* PDFFormPageView.swift */; };
-		7EECD9D39B7C6329975DC79B0D1AD15D /* PDFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A87233A3D84F26B3654AB923211EFB7 /* PDFPageContentView.swift */; };
-		81E491077089CF9AF7C9F67C18418850 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14A502BE2C9F96860C04CCC91E4127B /* PDFViewController.swift */; };
-		84AF81859BD3A6EC754379EA14CDBC54 /* PDFToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D19338C0E603ACE44E2BAB1760A879 /* PDFToggleButton.swift */; };
-		8BD64E9453CC046E0EF6B8E0A14DBFCB /* PDFSnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F133982B5A043A98209197D995C559 /* PDFSnapshotCache.swift */; };
-		8D3DA58D61340AF7BF69038C63E7731C /* PDFThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD22FB8AD450CC893518B414D0CC30A6 /* PDFThumbnailView.swift */; };
-		9091397838F8F158658B6B32941BEFA1 /* PDFFormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E724F2CFCE836EE149DE89D4651ADC63 /* PDFFormTextField.swift */; };
-		960099EDB5EA714A7A0ABDA763C7FC94 /* PDFFormButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8B2A6040111432FD9D5C9D94B7160 /* PDFFormButtonField.swift */; };
-		993D1938B235E05BE2609FF376DC3DAB /* PDFPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01367FE0C071E75F4C8725DB60C027A /* PDFPageContent.swift */; };
+		7218EED197F02612AEF3512C24E0177C /* PDFDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7551918406AA84A78A35F7BB9483CF27 /* PDFDictionary.swift */; };
+		7358F2918E591F7C167F37A9E87673C0 /* PDFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AC52C3335F78B2BB32A2FED6C4D99 /* PDFArray.swift */; };
+		7455A4C78F55119E5BA34DC21A4EDAEA /* PDFFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB2E4680FF0273A6C0F9EFE6BC11880 /* PDFFormViewController.swift */; };
+		7EA78A85E204A2E0E2E25CB59183A6E0 /* PDFAnnotationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311897F296177F81A08E6816AB90896C /* PDFAnnotationStore.swift */; };
+		89EA8B0F8B9A7C6637C6464EF7E429FD /* PDFSinglePageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F2C205A788A181575456B2D9EED28F /* PDFSinglePageViewer.swift */; };
+		8C9980804A8EE4DB054F9B7194CE87B1 /* PDFAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A553CB3A42D5624BB00F21EA41374 /* PDFAnnotation.swift */; };
+		8CB5F3B9399764A2A36F551DD2A58FEE /* PDFPageScrubberThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD40CFAE9AA816610A48D2A4AFA6F63D /* PDFPageScrubberThumb.swift */; };
+		926D2FA6B36465E5D7539C8C6537F3BC /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F6F625E80F4838DDDE9438DA74AA37 /* PDFRenderer.swift */; };
+		95C315571051D9A6384379CDAC5416B0 /* PDFFormButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509ABDD5591694D2EF84CA1CB3D963F /* PDFFormButtonField.swift */; };
+		95C80C1D38DCA20572687704D9B3D9CE /* PDFPageScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8E7E2A9BD024781D8876A4EC4A0583 /* PDFPageScrubber.swift */; };
+		98721AC6815C9219FE42B86D45D46B26 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5483137C9DE2B56F821B36C2CCEB921F /* PDFDocument.swift */; };
 		9B37F62EB9515513815A8475CBB8EFEF /* Pods-UXMPDFKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5680F0C21DEB74F7B47666298F36DB /* Pods-UXMPDFKit_Example-dummy.m */; };
-		AB5AA9C18F6D139205A7EF799FFE8437 /* PDFPathAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02F8D7F10D88487142655BABD711EC3 /* PDFPathAnnotation.swift */; };
-		AD98E45603B97403A863371E87877DA4 /* PDFAnnotationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34CCF9A5501CCE6970A3BD5633CADAE /* PDFAnnotationController.swift */; };
-		B4AE508E487C29D465A888B8DE5E7BFB /* PDFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337B1E9753F98A6E19136A0E4760196A /* PDFArray.swift */; };
-		B99E9920A1C03D131912FA37C9AFBFCE /* PDFPageScrubberTrackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A886E9A14D7FD6A02202236DDC8A5B /* PDFPageScrubberTrackControl.swift */; };
-		BBE6E5F190B0E2590EB48108EDC2A1B0 /* PDFTextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5196E771D03118CFBFF3A44077DF8EED /* PDFTextAnnotation.swift */; };
+		A03E4352FA005CEF6BD5AFE524E0AB05 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104EC0D9E72904F1125E94B5C67E2B0C /* UIViewController.swift */; };
+		A22833FA2D9A54F854D4C9A5E44613C2 /* PDFTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5A4648170A56BD865C4CC581B352D /* PDFTextParser.swift */; };
+		A7B5D68EAD034480FC4DB1B8C48E8353 /* PDFBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1894D6931A30D3F7D4B9F69E2B3E4 /* PDFBarButton.swift */; };
+		AED94EF0E0F7623EF3F91628E93D5FAF /* PDFThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122B3B42B9B45877544344798245675 /* PDFThumbnailViewCell.swift */; };
+		AF569F8F53FE91C20E712B610C5672E2 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE256672D9522D9BD1CE9086D34283F /* CGPoint.swift */; };
 		C55C65C41A7E3E532BFA105B0804D6D3 /* UXMPDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A6B7046D88F318BCDF67B75969CABF /* UXMPDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA4761BFF0A30D28307ACE006BC0C7AA /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95BB15454D07B30DE80F9364B8016FD /* PDFDocument.swift */; };
-		D520AD489A7D2959CDE7864F823F8B1D /* PDFPageScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3E6276ED137C87D44B379FBD7229CA /* PDFPageScrubber.swift */; };
-		DE788036C327B7D655B503899DF0FCC9 /* PDFFormSignatureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F8F22A2E75A9DAC66A4DA28BB60629 /* PDFFormSignatureField.swift */; };
-		DFC93EE36F3A438EACE799BFBCEB1FC7 /* PDFFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12B992E80D0C2C28072ECD3FFC028D2 /* PDFFormField.swift */; };
+		C5A8C0632E7FA575CCDB944F51AD5499 /* PDFToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43388686D47B2B604FA11D0351D41575 /* PDFToggleButton.swift */; };
+		CF5ECFF7DA1B265B40552AECBF55BE27 /* PDFAnnotationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D44A70ABE45BAD3A8BCD93921194127 /* PDFAnnotationController.swift */; };
+		D0819A574BE990918541DD680DC856A9 /* PDFTextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FA3B27664FF6D59A5C2B1EB5B1AC9A /* PDFTextAnnotation.swift */; };
+		D08F8D8DBF417E2769980353B9AD075A /* ResizeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30829AC4C0232EC05DFF7087784FF527 /* ResizeableView.swift */; };
+		D18BF38B998A60706E1D9DF58D393FD4 /* PDFPathAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56727F308CB1C2AD7E764BF4259ADDDF /* PDFPathAnnotation.swift */; };
+		D4C69DBEA1D323BFF24CCE1104585AAF /* PDFActionGoTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AA723B32D43DEEF6F3F2F2636C3A16 /* PDFActionGoTo.swift */; };
+		D7BD666265325E56D8664706EB957B64 /* PDFThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799D28B1F4F5A154378624311FB14FA /* PDFThumbnailViewController.swift */; };
+		DA42C905D20D9FFEABA599EB82DE2F05 /* PDFThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26A53E7239966C8D2DD6CA9B6D08E6 /* PDFThumbnailView.swift */; };
+		DBA76ADEDEC59F0250DC63B1CBA41D82 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B8CCC1C2286B1DE7F8F1185769B6E4 /* UIImage.swift */; };
+		E1C44A3726C82B3D8D72D42650629FE5 /* PDFSinglePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DF375BB7BA310BBF1187DE49EC3618 /* PDFSinglePageCell.swift */; };
+		E28F48E179859DE17D70EB64696C8C2D /* PDFFormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643AFE786E23C669BDB7994D27EFCBB9 /* PDFFormTextField.swift */; };
+		ED196978892BCD155FBED21D794D9C11 /* PDFFormSignatureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F6FEEB76E4CCCFE6C30AC9EA042DCD /* PDFFormSignatureField.swift */; };
 		EF196E50B94C772E2BC72585A4B87A37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22425B0A3F84BE18A46849E29C823A0 /* Images.xcassets */; };
-		F322FD49651B6F7D66B3F7FB0FC24A4D /* UXMPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC32D4C69A270C7F52DFE49BEE6E162 /* UXMPDFKit-dummy.m */; };
-		F6BC767E610B120015E131D30E130680 /* PDFObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF165464C8189616ED707847D950874 /* PDFObjectParser.swift */; };
-		FA2FB2CDDC8703C7226ADACD990B0D4C /* PDFActionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE8AE83AA56A822B2FA0388516FF07 /* PDFActionURL.swift */; };
-		00703477D03E535E1BFA3A7169814C2C /* PDFAnnotationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68ECDBCA8C7CBFC7A4C746BEAA00756 /* PDFAnnotationStore.swift */; };
-		0168C787039F39EFC7CC717928780ECE /* PDFFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC48780BD915E4D5ACCE82C88A1AB13 /* PDFFormField.swift */; };
-		026FEED112A93B09A02BE58F8F025312 /* PDFPageScrubberThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43266A476FB5C6ADDCCBECEB16E9D513 /* PDFPageScrubberThumb.swift */; };
-		02F91569195B82122C93CD73F89BF123 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1B16E7B9A2A6B1300E0AE0B3DD0ED6 /* PDFDocument.swift */; };
-		075383BD36B769E863ED5F59FA08F555 /* PDFPathAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9875B88D900C485C9301E8616F19BC5 /* PDFPathAnnotation.swift */; };
-		14E3AEB11DD6ED3800CC9C60 /* PDFSinglePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E3AEB01DD6ED3800CC9C60 /* PDFSinglePageCell.swift */; };
-		14ED9AA74A5A2E807B36B928AAE04F32 /* PDFTextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36255D8C8E8839365B8EB3FF153756B5 /* PDFTextAnnotation.swift */; };
-		1A6C84063FC233E27AEA75D7300DFD96 /* PDFFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E445E04379E4222CB9A066D36A01E7C /* PDFFormViewController.swift */; };
-		27F938F715132EBBE5F6903A0029CA2B /* PDFDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0671AD3DB0F8A78F7FA1753FD4D804 /* PDFDictionary.swift */; };
-		298424542AE0A9D498FF405DFA338D75 /* PDFSnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FE943FC9A290F6F65198FF53EF96E6 /* PDFSnapshotCache.swift */; };
-		3718081077F2A6A3CB9DB4259C52A9A6 /* UXMPDFKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 36816B3ABA7674FDDFE94F22C8EC3FAB /* UXMPDFKit.bundle */; };
-		37C1CD56A692371828740DFCEE4A9128 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C998B073AF0AE6121E63EFF482E2E251 /* PDFViewController.swift */; };
-		38629AF01DDA548700DF2B43 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38629AEF1DDA548700DF2B43 /* UIColor.swift */; };
-		38629AF21DDA55DF00DF2B43 /* PDFToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38629AF11DDA55DF00DF2B43 /* PDFToggleButton.swift */; };
-		4226B8E079C7A46273F41F374F2D54EB /* PDFDocumentLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49FB5E98854EBDE8CCAB4C0137D1986 /* PDFDocumentLink.swift */; };
-		4431B8FC918BE6C9C21DCC72EDA860E6 /* Pods-UXMPDFKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B9DE7CB16631F30FAE38D53282A2FE /* Pods-UXMPDFKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B1F57EBF4BECAEC47EEF57BD3CA1AD7 /* PDFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD1010A27EE6442B7768D3B955DBF9 /* PDFAction.swift */; };
-		4DFC30C056451573A629F3EA2C9378B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22425B0A3F84BE18A46849E29C823A0 /* Images.xcassets */; };
-		536A83F7FA72186229EBF285914A5B78 /* PDFThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C164216F04F2C8E8102F383F660F44 /* PDFThumbnailView.swift */; };
-		610688731E3A52BD00A85AF0 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610688711E3A4F9900A85AF0 /* UIViewController.swift */; };
-		612E003F1E424A9E00C42D3E /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E003D1E424A7200C42D3E /* CGPoint.swift */; };
-		612E00421E424F3E00C42D3E /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E00401E424EBF00C42D3E /* CGRect.swift */; };
-		61561CB41DDA7C6100C314EB /* PDFThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61561CB21DDA7B4E00C314EB /* PDFThumbnailViewController.swift */; };
-		61561CB61DDA7F6200C314EB /* PDFThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61561CB51DDA7F6200C314EB /* PDFThumbnailViewCell.swift */; };
-		61C3A26E1EC2859A00807C4B /* ResizeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C3A26D1EC2859A00807C4B /* ResizeableView.swift */; };
-		61D72DBD1DDB705B003CE472 /* PDFActionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D72DBC1DDB705B003CE472 /* PDFActionURL.swift */; };
-		61D72DBE1DDB7062003CE472 /* PDFActionGoTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D72DBA1DDB7039003CE472 /* PDFActionGoTo.swift */; };
-		61D72DC11DDB7C15003CE472 /* PDFTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D72DC01DDB7C15003CE472 /* PDFTextParser.swift */; };
-		6CBA8437445A566C49E81E0FA15F8B89 /* Pods-UXMPDFKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5680F0C21DEB74F7B47666298F36DB /* Pods-UXMPDFKit_Example-dummy.m */; };
-		75332EB7DF07634FEBA4DB30AED834DE /* PDFBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1A9EB3AA234A93FFED5E5EC31C26C0 /* PDFBarButton.swift */; };
-		75EBCC5DA128D1197EE38C0D71ED2E61 /* PDFSinglePageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33BD08506077733D10565FD32AAE01D /* PDFSinglePageViewer.swift */; };
-		A541F16F605856534EE1CB630D115E97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		AEBCD8510D17EB5BB1AF97C56DA3E0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B564F9589CA9317A04F24F9DC40AC5AA /* PDFAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46276AA25C0911175B06F6F426E499D5 /* PDFAnnotation.swift */; };
-		B6610EC0BB6FC688BE01E6A0CEDAC1E8 /* PDFPageScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C690BCEDB59958B45834FDDEEF382E58 /* PDFPageScrubber.swift */; };
-		C02189E300C9F94935CFF78ECD34CA3B /* PDFPageTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C7B951EC7E6CED0390CF07A023630 /* PDFPageTileLayer.swift */; };
-		C1EDA6F9A885F21D2887845369237062 /* PDFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64082BD427D609690F7BB6818051DE3D /* PDFArray.swift */; };
-		C4E224C0D0BFCC63723ACA2EDB266CC6 /* PDFFormButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4C067E14A9564492BD5FDF5871991B /* PDFFormButtonField.swift */; };
-		C4ECF8B8556E26A1DF679C202AC9B641 /* PDFFormSignatureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86698FA335844AF90C62A0038C5B4B9C /* PDFFormSignatureField.swift */; };
-		CC2919A41AAA5F6BCC83D700E574345F /* PDFObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71407B9D27B023DFC53AEEA70B040CB /* PDFObjectParser.swift */; };
-		CE63E30770B2CDD35ED208AF2A284F5B /* PDFPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C363DF92B0BB7081898E123695AED3A2 /* PDFPageContent.swift */; };
-		D09FB06765B5FCD7A81F58BE68B1BDED /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D9346501AFA05A330677D39DB1650F /* PDFRenderer.swift */; };
-		DD3034BF3EE6DA6D91BBF74EAEAC456E /* PDFFormPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315197F935F69EEBFF1F92849523A564 /* PDFFormPageView.swift */; };
-		DE4A344370F68EA63CCA245BB42FF44A /* UXMPDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A6B7046D88F318BCDF67B75969CABF /* UXMPDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEEE49CA145C9CAFCB54635C31D6F6E6 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DA813643EF21961CF0953E75AD135F /* CGPDFDocument.swift */; };
-		E2EE8D087924795726295ABA80B0079F /* PDFPageScrubberTrackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4678DC63259E1E556B22354639F826 /* PDFPageScrubberTrackControl.swift */; };
-		E8C31B918E22C5EB41B659A64E076416 /* PDFAnnotationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9731359E2EA43A65C0297BACA691EFDC /* PDFAnnotationController.swift */; };
-		EA02320D912547EAE5017330C7835B18 /* UXMPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC32D4C69A270C7F52DFE49BEE6E162 /* UXMPDFKit-dummy.m */; };
-		EF0C3B060264BDE888EFCB98B2E95088 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF790A1D01AB3417430203D9D7EFB14 /* UIImage.swift */; };
-		F77D80C31A9B9DBED9D3A258932F9922 /* PDFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494B21C53F5EAC8E75CE8E354CAF951 /* PDFPageContentView.swift */; };
-		F9C1E676BBEAC0A22212CD00437C1073 /* PDFFormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4D21E86A879510E1AA0F444C9882 /* PDFFormTextField.swift */; };
+		F23136305314B8FE397CB3D7B723E551 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A12766C9F40DBCEE8C4B02E2806A555 /* CGRect.swift */; };
+		F9152929557F960AE868B78BB73B1BF5 /* PDFFormPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F991229C5D832D19813761A1B997E50 /* PDFFormPageView.swift */; };
+		FE902711B687515E73DFB1B9BFE96AAA /* PDFPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C495D269CDC0DCD8E2BF13E5CC17AE /* PDFPageContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,85 +78,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E073683EE9E0CB4F23843F0B64847C /* PDFFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormViewController.swift; sourceTree = "<group>"; };
-		0851B0E83B08D4BA997A2AB23D8B8A98 /* PDFAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotation.swift; sourceTree = "<group>"; };
-		0BC5ECA5FD2C16950DC561BC1B29AF68 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		0E25E22600004B87F1FD6DE65F353057 /* Pods_UXMPDFKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXMPDFKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F494D012DDBFE9C85995D7E29E09DAF /* PDFFormPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormPageView.swift; sourceTree = "<group>"; };
-		1184EBA9D2ACBCAD456DA61DB7342C15 /* PDFSinglePageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSinglePageViewer.swift; sourceTree = "<group>"; };
-		12D19338C0E603ACE44E2BAB1760A879 /* PDFToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFToggleButton.swift; sourceTree = "<group>"; };
-		19A8B2A6040111432FD9D5C9D94B7160 /* PDFFormButtonField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormButtonField.swift; sourceTree = "<group>"; };
-		1E783093DF8174B6017F64FA4A168B30 /* PDFAnnotationStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotationStore.swift; sourceTree = "<group>"; };
-		303E82AEB4DE11FCFACEB8EDFD9E025A /* PDFPageTileLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageTileLayer.swift; sourceTree = "<group>"; };
-		308ED807743EF8A9E9023A01C44BF01A /* PDFThumbnailViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewCell.swift; sourceTree = "<group>"; };
-		337B1E9753F98A6E19136A0E4760196A /* PDFArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFArray.swift; sourceTree = "<group>"; };
-		350FDAD65498E99220B6538F4AFCBE07 /* PDFSinglePageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSinglePageCell.swift; sourceTree = "<group>"; };
-		36816B3ABA7674FDDFE94F22C8EC3FAB /* UXMPDFKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UXMPDFKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0122B3B42B9B45877544344798245675 /* PDFThumbnailViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewCell.swift; sourceTree = "<group>"; };
+		0E25E22600004B87F1FD6DE65F353057 /* Pods_UXMPDFKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UXMPDFKit_Example.framework; path = "Pods-UXMPDFKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F991229C5D832D19813761A1B997E50 /* PDFFormPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormPageView.swift; sourceTree = "<group>"; };
+		104EC0D9E72904F1125E94B5C67E2B0C /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		1CA255CC77328E98ED5DD6ADC2E2BC54 /* PDFDocumentLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDocumentLink.swift; sourceTree = "<group>"; };
+		215F9237E873297D1F75084AEB984894 /* PDFViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		27B8CCC1C2286B1DE7F8F1185769B6E4 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		30829AC4C0232EC05DFF7087784FF527 /* ResizeableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResizeableView.swift; sourceTree = "<group>"; };
+		311897F296177F81A08E6816AB90896C /* PDFAnnotationStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotationStore.swift; sourceTree = "<group>"; };
+		31DBB70170CDB925C8B9C836A3DE115C /* CGPDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
+		3322BA8FCA92E76F9DE60E6738DE6BDC /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		36816B3ABA7674FDDFE94F22C8EC3FAB /* UXMPDFKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UXMPDFKit.bundle; path = UXMPDFKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3799D28B1F4F5A154378624311FB14FA /* PDFThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewController.swift; sourceTree = "<group>"; };
 		38A6B7046D88F318BCDF67B75969CABF /* UXMPDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXMPDFKit-umbrella.h"; sourceTree = "<group>"; };
+		3B1AC52C3335F78B2BB32A2FED6C4D99 /* PDFArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFArray.swift; sourceTree = "<group>"; };
 		3CC32D4C69A270C7F52DFE49BEE6E162 /* UXMPDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UXMPDFKit-dummy.m"; sourceTree = "<group>"; };
-		4D6609F24D5989608D6E4AEABEB61D2C /* CGPDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
-		5196E771D03118CFBFF3A44077DF8EED /* PDFTextAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFTextAnnotation.swift; sourceTree = "<group>"; };
-		58BB1231BE3900304BABBEF3E37B6064 /* PDFTextParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFTextParser.swift; sourceTree = "<group>"; };
+		3F992F94DF78F782B5AF125A243744A8 /* PDFSnapshotCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSnapshotCache.swift; sourceTree = "<group>"; };
+		4000CDBE591362C7E9305ED2B8101B43 /* PDFPageContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageContentView.swift; sourceTree = "<group>"; };
+		43388686D47B2B604FA11D0351D41575 /* PDFToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFToggleButton.swift; sourceTree = "<group>"; };
+		4509ABDD5591694D2EF84CA1CB3D963F /* PDFFormButtonField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormButtonField.swift; sourceTree = "<group>"; };
+		4E26A53E7239966C8D2DD6CA9B6D08E6 /* PDFThumbnailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailView.swift; sourceTree = "<group>"; };
+		5483137C9DE2B56F821B36C2CCEB921F /* PDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
+		56727F308CB1C2AD7E764BF4259ADDDF /* PDFPathAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPathAnnotation.swift; sourceTree = "<group>"; };
+		5D44A70ABE45BAD3A8BCD93921194127 /* PDFAnnotationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotationController.swift; sourceTree = "<group>"; };
 		614525CCFB2767D95FE12EEEC2FD622C /* UXMPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXMPDFKit-prefix.pch"; sourceTree = "<group>"; };
-		6568B88F0820FBC7688E5CB155515169 /* PDFPageScrubberThumb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubberThumb.swift; sourceTree = "<group>"; };
+		643AFE786E23C669BDB7994D27EFCBB9 /* PDFFormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormTextField.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		70A3CEB535BDB0D3DE84DCB79C29E757 /* PDFRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFRenderer.swift; sourceTree = "<group>"; };
-		43266A476FB5C6ADDCCBECEB16E9D513 /* PDFPageScrubberThumb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubberThumb.swift; sourceTree = "<group>"; };
-		46276AA25C0911175B06F6F426E499D5 /* PDFAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotation.swift; sourceTree = "<group>"; };
-		4E1B16E7B9A2A6B1300E0AE0B3DD0ED6 /* PDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
-		610688711E3A4F9900A85AF0 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		612E003D1E424A7200C42D3E /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
-		612E00401E424EBF00C42D3E /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
-		614525CCFB2767D95FE12EEEC2FD622C /* UXMPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXMPDFKit-prefix.pch"; sourceTree = "<group>"; };
-		61561CB21DDA7B4E00C314EB /* PDFThumbnailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewController.swift; sourceTree = "<group>"; };
-		61561CB51DDA7F6200C314EB /* PDFThumbnailViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewCell.swift; sourceTree = "<group>"; };
-		61C3A26D1EC2859A00807C4B /* ResizeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResizeableView.swift; sourceTree = "<group>"; };
-		61D72DBA1DDB7039003CE472 /* PDFActionGoTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFActionGoTo.swift; sourceTree = "<group>"; };
-		61D72DBC1DDB705B003CE472 /* PDFActionURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFActionURL.swift; sourceTree = "<group>"; };
-		61D72DC01DDB7C15003CE472 /* PDFTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFTextParser.swift; sourceTree = "<group>"; };
-		64082BD427D609690F7BB6818051DE3D /* PDFArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFArray.swift; sourceTree = "<group>"; };
-		69FD1010A27EE6442B7768D3B955DBF9 /* PDFAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAction.swift; sourceTree = "<group>"; };
-		6EC48780BD915E4D5ACCE82C88A1AB13 /* PDFFormField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormField.swift; sourceTree = "<group>"; };
+		6A12766C9F40DBCEE8C4B02E2806A555 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		6B8E7E2A9BD024781D8876A4EC4A0583 /* PDFPageScrubber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubber.swift; sourceTree = "<group>"; };
 		73B9DE7CB16631F30FAE38D53282A2FE /* Pods-UXMPDFKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UXMPDFKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		7551918406AA84A78A35F7BB9483CF27 /* PDFDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDictionary.swift; sourceTree = "<group>"; };
 		75574BE886F738F3093CE3A2F50EDEC8 /* Pods-UXMPDFKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UXMPDFKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A87233A3D84F26B3654AB923211EFB7 /* PDFPageContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageContentView.swift; sourceTree = "<group>"; };
-		7CF165464C8189616ED707847D950874 /* PDFObjectParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFObjectParser.swift; sourceTree = "<group>"; };
+		7FE256672D9522D9BD1CE9086D34283F /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		81F2C205A788A181575456B2D9EED28F /* PDFSinglePageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSinglePageViewer.swift; sourceTree = "<group>"; };
 		84EF34252AF2C6686B91CF82C433AF97 /* Pods-UXMPDFKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UXMPDFKit_Example-resources.sh"; sourceTree = "<group>"; };
-		8EDAFF77E73AF2128411ADDF5B58E260 /* PDFDocumentLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDocumentLink.swift; sourceTree = "<group>"; };
-		923C8A6AA6EF26F1AFCE47B4B4307540 /* Pods-UXMPDFKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UXMPDFKit_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95F133982B5A043A98209197D995C559 /* PDFSnapshotCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSnapshotCache.swift; sourceTree = "<group>"; };
-		97F8F22A2E75A9DAC66A4DA28BB60629 /* PDFFormSignatureField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormSignatureField.swift; sourceTree = "<group>"; };
+		889FCAB1AAD806725B6C8D286104AA2C /* PDFObjectParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFObjectParser.swift; sourceTree = "<group>"; };
+		8ABC1302973D3A9A531F0148A8110B0D /* PDFActionURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFActionURL.swift; sourceTree = "<group>"; };
+		923C8A6AA6EF26F1AFCE47B4B4307540 /* Pods-UXMPDFKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UXMPDFKit_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98269C964ED3DBB303CBAA1006CEE6AC /* Pods-UXMPDFKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXMPDFKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9A4A2DCF5C9D8738F2D258C3143E1466 /* PDFBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFBarButton.swift; sourceTree = "<group>"; };
-		A01367FE0C071E75F4C8725DB60C027A /* PDFPageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageContent.swift; sourceTree = "<group>"; };
-		A0181833A6A33E2F39D632638FA039C1 /* UXMPDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UXMPDFKit.modulemap; sourceTree = "<group>"; };
-		A11956BF522A03C6DDA6C5D4DFEC4972 /* PDFDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDictionary.swift; sourceTree = "<group>"; };
-		A34CCF9A5501CCE6970A3BD5633CADAE /* PDFAnnotationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotationController.swift; sourceTree = "<group>"; };
+		A0181833A6A33E2F39D632638FA039C1 /* UXMPDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UXMPDFKit.modulemap; sourceTree = "<group>"; };
 		A4813EE89CCCB14693E9B61A6CD6117F /* UXMPDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXMPDFKit.xcconfig; sourceTree = "<group>"; };
 		A599D61A3B46FD09E6025DE6E91F8D66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B5A4648170A56BD865C4CC581B352D /* PDFTextParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFTextParser.swift; sourceTree = "<group>"; };
+		A6C91F384EA9EA86F3848FE36FF08859 /* PDFFormField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormField.swift; sourceTree = "<group>"; };
 		A96B3532B35536E9DE978DE5DE13E668 /* ResourceBundle-UXMPDFKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UXMPDFKit-Info.plist"; sourceTree = "<group>"; };
-		AD22FB8AD450CC893518B414D0CC30A6 /* PDFThumbnailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailView.swift; sourceTree = "<group>"; };
-		B02F8D7F10D88487142655BABD711EC3 /* PDFPathAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPathAnnotation.swift; sourceTree = "<group>"; };
-		BFCE8671408DA6A88C6104CF7CADE903 /* PDFActionGoTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFActionGoTo.swift; sourceTree = "<group>"; };
+		AD40CFAE9AA816610A48D2A4AFA6F63D /* PDFPageScrubberThumb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubberThumb.swift; sourceTree = "<group>"; };
+		BDB2E4680FF0273A6C0F9EFE6BC11880 /* PDFFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormViewController.swift; sourceTree = "<group>"; };
+		BDF1894D6931A30D3F7D4B9F69E2B3E4 /* PDFBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFBarButton.swift; sourceTree = "<group>"; };
 		C22425B0A3F84BE18A46849E29C823A0 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C427B08E12D2A5801438BEBFC96520BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9A886E9A14D7FD6A02202236DDC8A5B /* PDFPageScrubberTrackControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubberTrackControl.swift; sourceTree = "<group>"; };
+		C5F6FEEB76E4CCCFE6C30AC9EA042DCD /* PDFFormSignatureField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormSignatureField.swift; sourceTree = "<group>"; };
+		C76A553CB3A42D5624BB00F21EA41374 /* PDFAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAnnotation.swift; sourceTree = "<group>"; };
+		C7DF375BB7BA310BBF1187DE49EC3618 /* PDFSinglePageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFSinglePageCell.swift; sourceTree = "<group>"; };
+		C9FA3B27664FF6D59A5C2B1EB5B1AC9A /* PDFTextAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFTextAnnotation.swift; sourceTree = "<group>"; };
 		CF95F142877C93B0BAB858F7187F7D1C /* Pods-UXMPDFKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXMPDFKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D070DD6BD30EB7B64387E7B6DE8196CF /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		D14A502BE2C9F96860C04CCC91E4127B /* PDFViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		CFFD138F737EEDA39465B7BB53A8A73C /* PDFAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAction.swift; sourceTree = "<group>"; };
 		D7B61F1F28653D99DFE37D252E1BD160 /* Pods-UXMPDFKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXMPDFKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D8395BEB17C8A082284F9BF7C4D0ACF3 /* PDFAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFAction.swift; sourceTree = "<group>"; };
-		DA3E6276ED137C87D44B379FBD7229CA /* PDFPageScrubber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubber.swift; sourceTree = "<group>"; };
-		E12B992E80D0C2C28072ECD3FFC028D2 /* PDFFormField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormField.swift; sourceTree = "<group>"; };
-		E724F2CFCE836EE149DE89D4651ADC63 /* PDFFormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFFormTextField.swift; sourceTree = "<group>"; };
-		EB8709590862CC36D2160075BCCD4E46 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		EC338060A25E46404C16949C136E122D /* UXMPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UXMPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEE6ABE2BA665AD28E24FF047E48A01E /* PDFThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFThumbnailViewController.swift; sourceTree = "<group>"; };
+		D9AA723B32D43DEEF6F3F2F2636C3A16 /* PDFActionGoTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFActionGoTo.swift; sourceTree = "<group>"; };
+		EC338060A25E46404C16949C136E122D /* UXMPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UXMPDFKit.framework; path = UXMPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED327080B8B6CD9C9CD967F2A3947DDF /* PDFPageScrubberTrackControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageScrubberTrackControl.swift; sourceTree = "<group>"; };
 		EF5680F0C21DEB74F7B47666298F36DB /* Pods-UXMPDFKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UXMPDFKit_Example-dummy.m"; sourceTree = "<group>"; };
 		F5E1EF2045F8CAE079FBBD1B47009647 /* Pods-UXMPDFKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UXMPDFKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F95BB15454D07B30DE80F9364B8016FD /* PDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFDocument.swift; sourceTree = "<group>"; };
-		FCEE8AE83AA56A822B2FA0388516FF07 /* PDFActionURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFActionURL.swift; sourceTree = "<group>"; };
+		F8F6F625E80F4838DDDE9438DA74AA37 /* PDFRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFRenderer.swift; sourceTree = "<group>"; };
+		F9C495D269CDC0DCD8E2BF13E5CC17AE /* PDFPageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageContent.swift; sourceTree = "<group>"; };
+		FDEA59EF5958D507D164DC7EA0F5C11D /* PDFPageTileLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFPageTileLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,7 +176,7 @@
 		00138C775C9CCC4143EBE26A0F9D141F /* UXMPDFKit */ = {
 			isa = PBXGroup;
 			children = (
-				3E7AEE2756492994BD9783E13D2A2AE7 /* Pod */,
+				1D8391BE0DCE70BD8364AD7428563A17 /* Pod */,
 				979A0E9CA81EA780D9E508F7D7F685F3 /* Resources */,
 				08E11616A3BF33064960AD15033FFA4E /* Support Files */,
 			);
@@ -260,34 +199,44 @@
 			path = "Example/Pods/Target Support Files/UXMPDFKit";
 			sourceTree = "<group>";
 		};
-		0E89B18E348FF75DEBAFB94E95276481 /* Annotations */ = {
+		1267515D7A04FE9535E256EA709BD205 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0851B0E83B08D4BA997A2AB23D8B8A98 /* PDFAnnotation.swift */,
-				A34CCF9A5501CCE6970A3BD5633CADAE /* PDFAnnotationController.swift */,
-				1E783093DF8174B6017F64FA4A168B30 /* PDFAnnotationStore.swift */,
-				B02F8D7F10D88487142655BABD711EC3 /* PDFPathAnnotation.swift */,
-				5196E771D03118CFBFF3A44077DF8EED /* PDFTextAnnotation.swift */,
+				7FE256672D9522D9BD1CE9086D34283F /* CGPoint.swift */,
+				6A12766C9F40DBCEE8C4B02E2806A555 /* CGRect.swift */,
+				3322BA8FCA92E76F9DE60E6738DE6BDC /* UIColor.swift */,
+				27B8CCC1C2286B1DE7F8F1185769B6E4 /* UIImage.swift */,
+				104EC0D9E72904F1125E94B5C67E2B0C /* UIViewController.swift */,
 			);
-			path = Annotations;
+			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		118AAF2350C394DB71823A9E62FDFF12 /* Classes */ = {
+		1D8391BE0DCE70BD8364AD7428563A17 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0E89B18E348FF75DEBAFB94E95276481 /* Annotations */,
-				DA49F75609F47553EC1957E23A18A223 /* Extensions */,
-				EB1D2A27D95899616976162935C42BEB /* Form */,
-				9E718FFE219DC27AD36C94E88949EF1D /* Model */,
-				E9905DD6A80D66B5D92AF77BE07F1F70 /* Renderer */,
-				D94133CE51B12282E4AC0CE3A2D0DE5B /* TextParser */,
-				0EF790A1D01AB3417430203D9D7EFB14 /* UIImage.swift */,
-				612E003D1E424A7200C42D3E /* CGPoint.swift */,
-				612E00401E424EBF00C42D3E /* CGRect.swift */,
-				38629AEF1DDA548700DF2B43 /* UIColor.swift */,
-				610688711E3A4F9900A85AF0 /* UIViewController.swift */,
+				76232AE7D9A7B129A86E1AAB675F5D6E /* Classes */,
 			);
-			path = Classes;
+			name = Pod;
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2FC38BB2E5C0B3B5534717A21346E9D4 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AC52C3335F78B2BB32A2FED6C4D99 /* PDFArray.swift */,
+				7551918406AA84A78A35F7BB9483CF27 /* PDFDictionary.swift */,
+				4509ABDD5591694D2EF84CA1CB3D963F /* PDFFormButtonField.swift */,
+				A6C91F384EA9EA86F3848FE36FF08859 /* PDFFormField.swift */,
+				0F991229C5D832D19813761A1B997E50 /* PDFFormPageView.swift */,
+				C5F6FEEB76E4CCCFE6C30AC9EA042DCD /* PDFFormSignatureField.swift */,
+				643AFE786E23C669BDB7994D27EFCBB9 /* PDFFormTextField.swift */,
+				BDB2E4680FF0273A6C0F9EFE6BC11880 /* PDFFormViewController.swift */,
+				889FCAB1AAD806725B6C8D286104AA2C /* PDFObjectParser.swift */,
+				43388686D47B2B604FA11D0351D41575 /* PDFToggleButton.swift */,
+			);
+			name = Form;
+			path = Form;
 			sourceTree = "<group>";
 		};
 		318E3AFCB1B7A601FCFD36A1F1E2D215 /* Development Pods */ = {
@@ -303,32 +252,21 @@
 			children = (
 				AC09AA8151ECC4D8DF379AC7A4DE44F3 /* Assets */,
 			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		3E7AEE2756492994BD9783E13D2A2AE7 /* Pod */ = {
+		5364F5B76200D7DBF9FDF43A68AA40B6 /* Annotations */ = {
 			isa = PBXGroup;
 			children = (
-				118AAF2350C394DB71823A9E62FDFF12 /* Classes */,
-				76DA813643EF21961CF0953E75AD135F /* CGPDFDocument.swift */,
-				4E1B16E7B9A2A6B1300E0AE0B3DD0ED6 /* PDFDocument.swift */,
-				E49FB5E98854EBDE8CCAB4C0137D1986 /* PDFDocumentLink.swift */,
-				C363DF92B0BB7081898E123695AED3A2 /* PDFPageContent.swift */,
-				A494B21C53F5EAC8E75CE8E354CAF951 /* PDFPageContentView.swift */,
-				C690BCEDB59958B45834FDDEEF382E58 /* PDFPageScrubber.swift */,
-				43266A476FB5C6ADDCCBECEB16E9D513 /* PDFPageScrubberThumb.swift */,
-				EC4678DC63259E1E556B22354639F826 /* PDFPageScrubberTrackControl.swift */,
-				AE1C7B951EC7E6CED0390CF07A023630 /* PDFPageTileLayer.swift */,
-				B7D9346501AFA05A330677D39DB1650F /* PDFRenderer.swift */,
-				14E3AEB01DD6ED3800CC9C60 /* PDFSinglePageCell.swift */,
-				F33BD08506077733D10565FD32AAE01D /* PDFSinglePageViewer.swift */,
-				C9FE943FC9A290F6F65198FF53EF96E6 /* PDFSnapshotCache.swift */,
-				C6C164216F04F2C8E8102F383F660F44 /* PDFThumbnailView.swift */,
-				61561CB21DDA7B4E00C314EB /* PDFThumbnailViewController.swift */,
-				61561CB51DDA7F6200C314EB /* PDFThumbnailViewCell.swift */,
-				C998B073AF0AE6121E63EFF482E2E251 /* PDFViewController.swift */,
+				C76A553CB3A42D5624BB00F21EA41374 /* PDFAnnotation.swift */,
+				5D44A70ABE45BAD3A8BCD93921194127 /* PDFAnnotationController.swift */,
+				311897F296177F81A08E6816AB90896C /* PDFAnnotationStore.swift */,
+				56727F308CB1C2AD7E764BF4259ADDDF /* PDFPathAnnotation.swift */,
+				C9FA3B27664FF6D59A5C2B1EB5B1AC9A /* PDFTextAnnotation.swift */,
 			);
-			path = Pod;
+			name = Annotations;
+			path = Annotations;
 			sourceTree = "<group>";
 		};
 		546BB7A2873A587864100A030E28B105 /* Targets Support Files */ = {
@@ -367,16 +305,22 @@
 			path = "Target Support Files/Pods-UXMPDFKit_Example";
 			sourceTree = "<group>";
 		};
-		61C3A26F1EC3C0DF00807C4B /* View */ = {
+		76232AE7D9A7B129A86E1AAB675F5D6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BC1A9EB3AA234A93FFED5E5EC31C26C0 /* PDFBarButton.swift */,
-				61C3A26D1EC2859A00807C4B /* ResizeableView.swift */,
+				5364F5B76200D7DBF9FDF43A68AA40B6 /* Annotations */,
+				1267515D7A04FE9535E256EA709BD205 /* Extensions */,
+				2FC38BB2E5C0B3B5534717A21346E9D4 /* Form */,
+				955688BBC0C24C96D2557EB1E70F1C45 /* Model */,
+				B8DD379860B30EDC5F75EA9D028A0B7C /* Renderer */,
+				EBC819AFDA2215486A68FDBF0805EE4A /* TextParser */,
+				C8429E34F9BA8AE9E4010056EF0DE622 /* View */,
 			);
-			path = View;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		61D72DBF1DDB7BEF003CE472 /* TextParser */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
@@ -387,6 +331,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		955688BBC0C24C96D2557EB1E70F1C45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFFD138F737EEDA39465B7BB53A8A73C /* PDFAction.swift */,
+				D9AA723B32D43DEEF6F3F2F2636C3A16 /* PDFActionGoTo.swift */,
+				8ABC1302973D3A9A531F0148A8110B0D /* PDFActionURL.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
 		979A0E9CA81EA780D9E508F7D7F685F3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,22 +350,38 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9E718FFE219DC27AD36C94E88949EF1D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D8395BEB17C8A082284F9BF7C4D0ACF3 /* PDFAction.swift */,
-				BFCE8671408DA6A88C6104CF7CADE903 /* PDFActionGoTo.swift */,
-				FCEE8AE83AA56A822B2FA0388516FF07 /* PDFActionURL.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		AC09AA8151ECC4D8DF379AC7A4DE44F3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				C22425B0A3F84BE18A46849E29C823A0 /* Images.xcassets */,
 			);
+			name = Assets;
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		B8DD379860B30EDC5F75EA9D028A0B7C /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				31DBB70170CDB925C8B9C836A3DE115C /* CGPDFDocument.swift */,
+				5483137C9DE2B56F821B36C2CCEB921F /* PDFDocument.swift */,
+				1CA255CC77328E98ED5DD6ADC2E2BC54 /* PDFDocumentLink.swift */,
+				F9C495D269CDC0DCD8E2BF13E5CC17AE /* PDFPageContent.swift */,
+				4000CDBE591362C7E9305ED2B8101B43 /* PDFPageContentView.swift */,
+				6B8E7E2A9BD024781D8876A4EC4A0583 /* PDFPageScrubber.swift */,
+				AD40CFAE9AA816610A48D2A4AFA6F63D /* PDFPageScrubberThumb.swift */,
+				ED327080B8B6CD9C9CD967F2A3947DDF /* PDFPageScrubberTrackControl.swift */,
+				FDEA59EF5958D507D164DC7EA0F5C11D /* PDFPageTileLayer.swift */,
+				F8F6F625E80F4838DDDE9438DA74AA37 /* PDFRenderer.swift */,
+				C7DF375BB7BA310BBF1187DE49EC3618 /* PDFSinglePageCell.swift */,
+				81F2C205A788A181575456B2D9EED28F /* PDFSinglePageViewer.swift */,
+				3F992F94DF78F782B5AF125A243744A8 /* PDFSnapshotCache.swift */,
+				4E26A53E7239966C8D2DD6CA9B6D08E6 /* PDFThumbnailView.swift */,
+				0122B3B42B9B45877544344798245675 /* PDFThumbnailViewCell.swift */,
+				3799D28B1F4F5A154378624311FB14FA /* PDFThumbnailViewController.swift */,
+				215F9237E873297D1F75084AEB984894 /* PDFViewController.swift */,
+			);
+			name = Renderer;
+			path = Renderer;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -421,6 +392,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C8429E34F9BA8AE9E4010056EF0DE622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1894D6931A30D3F7D4B9F69E2B3E4 /* PDFBarButton.swift */,
+				30829AC4C0232EC05DFF7087784FF527 /* ResizeableView.swift */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,71 +410,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D94133CE51B12282E4AC0CE3A2D0DE5B /* TextParser */ = {
+		EBC819AFDA2215486A68FDBF0805EE4A /* TextParser */ = {
 			isa = PBXGroup;
 			children = (
-				58BB1231BE3900304BABBEF3E37B6064 /* PDFTextParser.swift */,
+				A6B5A4648170A56BD865C4CC581B352D /* PDFTextParser.swift */,
 			);
+			name = TextParser;
 			path = TextParser;
-			sourceTree = "<group>";
-		};
-		DA49F75609F47553EC1957E23A18A223 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D070DD6BD30EB7B64387E7B6DE8196CF /* UIColor.swift */,
-				EB8709590862CC36D2160075BCCD4E46 /* UIImage.swift */,
-				0BC5ECA5FD2C16950DC561BC1B29AF68 /* UIViewController.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		E9905DD6A80D66B5D92AF77BE07F1F70 /* Renderer */ = {
-			isa = PBXGroup;
-			children = (
-				4D6609F24D5989608D6E4AEABEB61D2C /* CGPDFDocument.swift */,
-				9A4A2DCF5C9D8738F2D258C3143E1466 /* PDFBarButton.swift */,
-				F95BB15454D07B30DE80F9364B8016FD /* PDFDocument.swift */,
-				8EDAFF77E73AF2128411ADDF5B58E260 /* PDFDocumentLink.swift */,
-				A01367FE0C071E75F4C8725DB60C027A /* PDFPageContent.swift */,
-				7A87233A3D84F26B3654AB923211EFB7 /* PDFPageContentView.swift */,
-				DA3E6276ED137C87D44B379FBD7229CA /* PDFPageScrubber.swift */,
-				6568B88F0820FBC7688E5CB155515169 /* PDFPageScrubberThumb.swift */,
-				C9A886E9A14D7FD6A02202236DDC8A5B /* PDFPageScrubberTrackControl.swift */,
-				303E82AEB4DE11FCFACEB8EDFD9E025A /* PDFPageTileLayer.swift */,
-				70A3CEB535BDB0D3DE84DCB79C29E757 /* PDFRenderer.swift */,
-				350FDAD65498E99220B6538F4AFCBE07 /* PDFSinglePageCell.swift */,
-				1184EBA9D2ACBCAD456DA61DB7342C15 /* PDFSinglePageViewer.swift */,
-				95F133982B5A043A98209197D995C559 /* PDFSnapshotCache.swift */,
-				AD22FB8AD450CC893518B414D0CC30A6 /* PDFThumbnailView.swift */,
-				308ED807743EF8A9E9023A01C44BF01A /* PDFThumbnailViewCell.swift */,
-				EEE6ABE2BA665AD28E24FF047E48A01E /* PDFThumbnailViewController.swift */,
-				D14A502BE2C9F96860C04CCC91E4127B /* PDFViewController.swift */,
-			);
-			path = Renderer;
-			sourceTree = "<group>";
-		};
-		EB1D2A27D95899616976162935C42BEB /* Form */ = {
-			isa = PBXGroup;
-			children = (
-				337B1E9753F98A6E19136A0E4760196A /* PDFArray.swift */,
-				A11956BF522A03C6DDA6C5D4DFEC4972 /* PDFDictionary.swift */,
-				19A8B2A6040111432FD9D5C9D94B7160 /* PDFFormButtonField.swift */,
-				E12B992E80D0C2C28072ECD3FFC028D2 /* PDFFormField.swift */,
-				0F494D012DDBFE9C85995D7E29E09DAF /* PDFFormPageView.swift */,
-				97F8F22A2E75A9DAC66A4DA28BB60629 /* PDFFormSignatureField.swift */,
-				E724F2CFCE836EE149DE89D4651ADC63 /* PDFFormTextField.swift */,
-				00E073683EE9E0CB4F23843F0B64847C /* PDFFormViewController.swift */,
-				7CF165464C8189616ED707847D950874 /* PDFObjectParser.swift */,
-				12D19338C0E603ACE44E2BAB1760A879 /* PDFToggleButton.swift */,
-				61C3A26F1EC3C0DF00807C4B /* View */,
-				0D5534176FDA413966A2FA057AB7673C /* Annotations */,
-				0F2EF4198B8CF05B867C8F5A18697809 /* Extensions */,
-				2267295D4FF13F19ED68658643D87819 /* Form */,
-				81336BCA9643382D6508CC16CB35EE81 /* Model */,
-				459AC960074E2604A104023B48ECFF7C /* Renderer */,
-				61D72DBF1DDB7BEF003CE472 /* TextParser */,
-			);
-			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,7 +480,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46CE43620308118B089C18AF1B54517A /* Build configuration list for PBXNativeTarget "UXMPDFKit" */;
 			buildPhases = (
-				53A2914428F56F85325FA54A0D0905DA /* Sources */,
+				939C44EF48FEEA765749388AEFE4E364 /* Sources */,
 				2002FB083C9ED8C624097CFB7E881C0A /* Frameworks */,
 				C8CEA50E05D73B84A2AA6CF88F856E8E /* Resources */,
 				8E057DDF71200A50449424125C9DBA49 /* Headers */,
@@ -578,13 +501,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0830;
-				TargetAttributes = {
-					D7C77B95095598F2FFA1E9456D29905E = {
-						LastSwiftMigration = 0820;
-					};
-				};
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -633,51 +551,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53A2914428F56F85325FA54A0D0905DA /* Sources */ = {
+		939C44EF48FEEA765749388AEFE4E364 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07868367C4008CE55467CFD5099EBAB9 /* CGPDFDocument.swift in Sources */,
-				69D55F91A2FF28E3C77DA5EA23758512 /* PDFAction.swift in Sources */,
-				078F8B86097986DB3F6512859FF8764F /* PDFActionGoTo.swift in Sources */,
-				FA2FB2CDDC8703C7226ADACD990B0D4C /* PDFActionURL.swift in Sources */,
-				61BBFC3CAAB93E1058DE59488F03C36D /* PDFAnnotation.swift in Sources */,
-				AD98E45603B97403A863371E87877DA4 /* PDFAnnotationController.swift in Sources */,
-				4AD10C1F68AC84584EE99C82B0C0C439 /* PDFAnnotationStore.swift in Sources */,
-				B4AE508E487C29D465A888B8DE5E7BFB /* PDFArray.swift in Sources */,
-				4ACF1F4544F1BA016AB1A99A7E0010D5 /* PDFBarButton.swift in Sources */,
-				1EE826CA256A6C139C265FC849375A88 /* PDFDictionary.swift in Sources */,
-				CA4761BFF0A30D28307ACE006BC0C7AA /* PDFDocument.swift in Sources */,
-				1DC755FDAB48733347C9246DFE022803 /* PDFDocumentLink.swift in Sources */,
-				960099EDB5EA714A7A0ABDA763C7FC94 /* PDFFormButtonField.swift in Sources */,
-				DFC93EE36F3A438EACE799BFBCEB1FC7 /* PDFFormField.swift in Sources */,
-				7B5C32895B67912241698ED345FC11A6 /* PDFFormPageView.swift in Sources */,
-				DE788036C327B7D655B503899DF0FCC9 /* PDFFormSignatureField.swift in Sources */,
-				9091397838F8F158658B6B32941BEFA1 /* PDFFormTextField.swift in Sources */,
-				288F5D3C4077469FEBCA8AE09B3E774E /* PDFFormViewController.swift in Sources */,
-				F6BC767E610B120015E131D30E130680 /* PDFObjectParser.swift in Sources */,
-				993D1938B235E05BE2609FF376DC3DAB /* PDFPageContent.swift in Sources */,
-				7EECD9D39B7C6329975DC79B0D1AD15D /* PDFPageContentView.swift in Sources */,
-				D520AD489A7D2959CDE7864F823F8B1D /* PDFPageScrubber.swift in Sources */,
-				629F13797088EE86DF041767E1A381FA /* PDFPageScrubberThumb.swift in Sources */,
-				B99E9920A1C03D131912FA37C9AFBFCE /* PDFPageScrubberTrackControl.swift in Sources */,
-				03FD6DC60023B62075797986A719A6F6 /* PDFPageTileLayer.swift in Sources */,
-				AB5AA9C18F6D139205A7EF799FFE8437 /* PDFPathAnnotation.swift in Sources */,
-				5C93782D987840B92EAFCB0648CF81E4 /* PDFRenderer.swift in Sources */,
-				77FDBF0FB17700AE235C73729D2F55A8 /* PDFSinglePageCell.swift in Sources */,
-				20DF6D17535D6A94B7FCCAFAAD7E7ED9 /* PDFSinglePageViewer.swift in Sources */,
-				8BD64E9453CC046E0EF6B8E0A14DBFCB /* PDFSnapshotCache.swift in Sources */,
-				BBE6E5F190B0E2590EB48108EDC2A1B0 /* PDFTextAnnotation.swift in Sources */,
-				104DB2360C5A28F5E6301BC270B06687 /* PDFTextParser.swift in Sources */,
-				8D3DA58D61340AF7BF69038C63E7731C /* PDFThumbnailView.swift in Sources */,
-				0E6D1692B3CCA5C0A390F56207C03BB6 /* PDFThumbnailViewCell.swift in Sources */,
-				7689EB072763E2AEDA297D25D0B009EE /* PDFThumbnailViewController.swift in Sources */,
-				84AF81859BD3A6EC754379EA14CDBC54 /* PDFToggleButton.swift in Sources */,
-				81E491077089CF9AF7C9F67C18418850 /* PDFViewController.swift in Sources */,
-				0CDA488DB33797C39BC87D2A87A7B6C9 /* UIColor.swift in Sources */,
-				056927A5ED624CFAD8976AA959D68B00 /* UIImage.swift in Sources */,
-				6FC00CBA736C8A064013F89D3BC6016D /* UIViewController.swift in Sources */,
-				F322FD49651B6F7D66B3F7FB0FC24A4D /* UXMPDFKit-dummy.m in Sources */,
+				4AF0FF5F3757292C0D8A566291EF1525 /* CGPDFDocument.swift in Sources */,
+				AF569F8F53FE91C20E712B610C5672E2 /* CGPoint.swift in Sources */,
+				F23136305314B8FE397CB3D7B723E551 /* CGRect.swift in Sources */,
+				10B870CDB533E4DEEBCD2461A07D9E8B /* PDFAction.swift in Sources */,
+				D4C69DBEA1D323BFF24CCE1104585AAF /* PDFActionGoTo.swift in Sources */,
+				375DB80EC7A8A49C283918E8E2040A0C /* PDFActionURL.swift in Sources */,
+				8C9980804A8EE4DB054F9B7194CE87B1 /* PDFAnnotation.swift in Sources */,
+				CF5ECFF7DA1B265B40552AECBF55BE27 /* PDFAnnotationController.swift in Sources */,
+				7EA78A85E204A2E0E2E25CB59183A6E0 /* PDFAnnotationStore.swift in Sources */,
+				7358F2918E591F7C167F37A9E87673C0 /* PDFArray.swift in Sources */,
+				A7B5D68EAD034480FC4DB1B8C48E8353 /* PDFBarButton.swift in Sources */,
+				7218EED197F02612AEF3512C24E0177C /* PDFDictionary.swift in Sources */,
+				98721AC6815C9219FE42B86D45D46B26 /* PDFDocument.swift in Sources */,
+				40FE42CBF69284859516215B5501E7B8 /* PDFDocumentLink.swift in Sources */,
+				95C315571051D9A6384379CDAC5416B0 /* PDFFormButtonField.swift in Sources */,
+				25A24485442D0CFB5E6FEED8CE9E397A /* PDFFormField.swift in Sources */,
+				F9152929557F960AE868B78BB73B1BF5 /* PDFFormPageView.swift in Sources */,
+				ED196978892BCD155FBED21D794D9C11 /* PDFFormSignatureField.swift in Sources */,
+				E28F48E179859DE17D70EB64696C8C2D /* PDFFormTextField.swift in Sources */,
+				7455A4C78F55119E5BA34DC21A4EDAEA /* PDFFormViewController.swift in Sources */,
+				3979AD1BC22A1EF62F031D5C24BE438A /* PDFObjectParser.swift in Sources */,
+				FE902711B687515E73DFB1B9BFE96AAA /* PDFPageContent.swift in Sources */,
+				4A26B4142E5B64AA3E18C5857D2A2392 /* PDFPageContentView.swift in Sources */,
+				95C80C1D38DCA20572687704D9B3D9CE /* PDFPageScrubber.swift in Sources */,
+				8CB5F3B9399764A2A36F551DD2A58FEE /* PDFPageScrubberThumb.swift in Sources */,
+				5829911597730F3B4232407E68CA4B67 /* PDFPageScrubberTrackControl.swift in Sources */,
+				42017DE7CCA10165FDD9D2C1D06CF56C /* PDFPageTileLayer.swift in Sources */,
+				D18BF38B998A60706E1D9DF58D393FD4 /* PDFPathAnnotation.swift in Sources */,
+				926D2FA6B36465E5D7539C8C6537F3BC /* PDFRenderer.swift in Sources */,
+				E1C44A3726C82B3D8D72D42650629FE5 /* PDFSinglePageCell.swift in Sources */,
+				89EA8B0F8B9A7C6637C6464EF7E429FD /* PDFSinglePageViewer.swift in Sources */,
+				5DD094958CB8A0922FD537653446F993 /* PDFSnapshotCache.swift in Sources */,
+				D0819A574BE990918541DD680DC856A9 /* PDFTextAnnotation.swift in Sources */,
+				A22833FA2D9A54F854D4C9A5E44613C2 /* PDFTextParser.swift in Sources */,
+				DA42C905D20D9FFEABA599EB82DE2F05 /* PDFThumbnailView.swift in Sources */,
+				AED94EF0E0F7623EF3F91628E93D5FAF /* PDFThumbnailViewCell.swift in Sources */,
+				D7BD666265325E56D8664706EB957B64 /* PDFThumbnailViewController.swift in Sources */,
+				C5A8C0632E7FA575CCDB944F51AD5499 /* PDFToggleButton.swift in Sources */,
+				40E9CFFD2EDFB253AF5F825A749149DE /* PDFViewController.swift in Sources */,
+				D08F8D8DBF417E2769980353B9AD075A /* ResizeableView.swift in Sources */,
+				578D19C1C40C170B329DFC2A96778E7F /* UIColor.swift in Sources */,
+				DBA76ADEDEC59F0250DC63B1CBA41D82 /* UIImage.swift in Sources */,
+				A03E4352FA005CEF6BD5AFE524E0AB05 /* UIViewController.swift in Sources */,
+				43DB299DE476073C293757B3C16DED18 /* UXMPDFKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,50 +606,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEE49CA145C9CAFCB54635C31D6F6E6 /* CGPDFDocument.swift in Sources */,
-				4B1F57EBF4BECAEC47EEF57BD3CA1AD7 /* PDFAction.swift in Sources */,
-				B564F9589CA9317A04F24F9DC40AC5AA /* PDFAnnotation.swift in Sources */,
-				E8C31B918E22C5EB41B659A64E076416 /* PDFAnnotationController.swift in Sources */,
-				61D72DBD1DDB705B003CE472 /* PDFActionURL.swift in Sources */,
-				00703477D03E535E1BFA3A7169814C2C /* PDFAnnotationStore.swift in Sources */,
-				C1EDA6F9A885F21D2887845369237062 /* PDFArray.swift in Sources */,
-				61561CB41DDA7C6100C314EB /* PDFThumbnailViewController.swift in Sources */,
-				75332EB7DF07634FEBA4DB30AED834DE /* PDFBarButton.swift in Sources */,
-				27F938F715132EBBE5F6903A0029CA2B /* PDFDictionary.swift in Sources */,
-				612E003F1E424A9E00C42D3E /* CGPoint.swift in Sources */,
-				02F91569195B82122C93CD73F89BF123 /* PDFDocument.swift in Sources */,
-				610688731E3A52BD00A85AF0 /* UIViewController.swift in Sources */,
-				4226B8E079C7A46273F41F374F2D54EB /* PDFDocumentLink.swift in Sources */,
-				C4E224C0D0BFCC63723ACA2EDB266CC6 /* PDFFormButtonField.swift in Sources */,
-				0168C787039F39EFC7CC717928780ECE /* PDFFormField.swift in Sources */,
-				612E00421E424F3E00C42D3E /* CGRect.swift in Sources */,
-				61D72DC11DDB7C15003CE472 /* PDFTextParser.swift in Sources */,
-				14E3AEB11DD6ED3800CC9C60 /* PDFSinglePageCell.swift in Sources */,
-				DD3034BF3EE6DA6D91BBF74EAEAC456E /* PDFFormPageView.swift in Sources */,
-				61D72DBE1DDB7062003CE472 /* PDFActionGoTo.swift in Sources */,
-				C4ECF8B8556E26A1DF679C202AC9B641 /* PDFFormSignatureField.swift in Sources */,
-				F9C1E676BBEAC0A22212CD00437C1073 /* PDFFormTextField.swift in Sources */,
-				1A6C84063FC233E27AEA75D7300DFD96 /* PDFFormViewController.swift in Sources */,
-				61C3A26E1EC2859A00807C4B /* ResizeableView.swift in Sources */,
-				CC2919A41AAA5F6BCC83D700E574345F /* PDFObjectParser.swift in Sources */,
-				CE63E30770B2CDD35ED208AF2A284F5B /* PDFPageContent.swift in Sources */,
-				F77D80C31A9B9DBED9D3A258932F9922 /* PDFPageContentView.swift in Sources */,
-				B6610EC0BB6FC688BE01E6A0CEDAC1E8 /* PDFPageScrubber.swift in Sources */,
-				026FEED112A93B09A02BE58F8F025312 /* PDFPageScrubberThumb.swift in Sources */,
-				E2EE8D087924795726295ABA80B0079F /* PDFPageScrubberTrackControl.swift in Sources */,
-				38629AF01DDA548700DF2B43 /* UIColor.swift in Sources */,
-				C02189E300C9F94935CFF78ECD34CA3B /* PDFPageTileLayer.swift in Sources */,
-				075383BD36B769E863ED5F59FA08F555 /* PDFPathAnnotation.swift in Sources */,
-				D09FB06765B5FCD7A81F58BE68B1BDED /* PDFRenderer.swift in Sources */,
-				75EBCC5DA128D1197EE38C0D71ED2E61 /* PDFSinglePageViewer.swift in Sources */,
-				38629AF21DDA55DF00DF2B43 /* PDFToggleButton.swift in Sources */,
-				298424542AE0A9D498FF405DFA338D75 /* PDFSnapshotCache.swift in Sources */,
-				14ED9AA74A5A2E807B36B928AAE04F32 /* PDFTextAnnotation.swift in Sources */,
-				536A83F7FA72186229EBF285914A5B78 /* PDFThumbnailView.swift in Sources */,
-				37C1CD56A692371828740DFCEE4A9128 /* PDFViewController.swift in Sources */,
-				EF0C3B060264BDE888EFCB98B2E95088 /* UIImage.swift in Sources */,
-				61561CB61DDA7F6200C314EB /* PDFThumbnailViewCell.swift in Sources */,
-				EA02320D912547EAE5017330C7835B18 /* UXMPDFKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
